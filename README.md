@@ -14,16 +14,24 @@ Stress-style tests (primorial/CRT) indicate the window remains short and robust.
 
 ---
 
-## Files
-- `goldbach_window_article.md` — main article (full explanation).  
-- `index.html` — minimal project web page (for GitHub Pages).  
-- `banner.svg` — banner illustration for the project.
+## Main article
+The full explanation, methodology, and proof-minded outline are available in:  
+👉 [goldbach_window_article.md](goldbach_window_article.md)
+
+---
+
+## Repository guide
+- This file **README.md** — summary of the project.  
+- `goldbach_window_article.md` — the detailed article.  
+- `index.html` — a simple web page (for GitHub Pages).  
+- `banner.svg` — banner illustration.
 
 ---
 
 ## How to use
-1. Read `goldbach_window_article.md`.  
-2. (Optional) Enable GitHub Pages (Settings → Pages) to serve `index.html`.
+1. Start by reading [README.md](README.md) (this file).  
+2. Read the main article: [goldbach_window_article.md](goldbach_window_article.md).  
+3. (Optional) Enable GitHub Pages (Settings → Pages) to serve `index.html` as a project page.
 
 ---
 
@@ -38,4 +46,5 @@ This work is released under the **MIT License** with attribution required.
 
 ---
 
-**One sentence:** The Goldbach Window turns “there exist two primes” into a short, reliable list that consistently contains them.
+**One sentence:**  
+The Goldbach Window turns “there exist two primes” into a short, reliable list that consistently contains them.
