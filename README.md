@@ -23,9 +23,10 @@ The full explanation, methodology, and proof-minded outline are available in the
 ## Repository guide
 - [README.md](README.md) — this summary file, first entry point.  
 - [goldbach_window_article.md](goldbach_window_article.md) — the detailed article.  
-- [index.html](index.html) — simple web page (for GitHub Pages).  
+- [index.html](index.html) — a simple web page (for GitHub Pages).  
 - [banner.svg](banner.svg) — banner illustration.  
-- [window_illustration.svg](window_illustration.svg) — schematic illustration of the Goldbach Window.
+- [window_illustration.svg](window_illustration.svg) — schematic illustration of the Goldbach Window.  
+- [prime_pair_symmetric.svg](prime_pair_symmetric.svg) — illustration of symmetric Goldbach pairs.
 
 ---
 
@@ -47,10 +48,12 @@ This work is released under the **MIT License** with attribution required.
 
 ---
 
-## Illustration
-Below is a simple schematic representation of the Goldbach Window:  
-
+## Illustrations
+### Goldbach Window (schematic)
 ![Goldbach Window Illustration](window_illustration.svg)
+
+### Symmetric prime pair (p + q = E)
+![Symmetric Goldbach Pair](prime_pair_symmetric.svg)
 
 ---
 
