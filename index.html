@@ -5,22 +5,22 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>The Goldbach Window — A Robust, Constructive Route to Two Primes</title>
   <style>
-    body { 
-      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; 
-      margin: 2rem; 
-      line-height: 1.6; 
-      background: #fafafa; 
-      color: #222; 
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      margin: 2rem;
+      line-height: 1.6;
+      background: #fafafa;
+      color: #222;
     }
     header { text-align: center; margin-bottom: 2rem; }
     h1 { color: #0a58ca; }
-    .pill { 
-      display: inline-block; 
-      padding: .3rem .8rem; 
-      border-radius: 999px; 
-      background:#e6f1ff; 
-      color:#0a58ca; 
-      font-weight:600; 
+    .pill {
+      display: inline-block;
+      padding: .3rem .8rem;
+      border-radius: 999px;
+      background:#e6f1ff;
+      color:#0a58ca;
+      font-weight:600;
     }
     a { color: #0a58ca; text-decoration: none; }
     a:hover { text-decoration: underline; }
@@ -38,41 +38,14 @@
   <div class="section">
     <h2>Summary</h2>
     <p>
-      The Goldbach Window is a constructive method that turns Goldbach’s conjecture into a short ranked list of offsets 
-      <em>t</em>. For every large even number E = 2x, this window reliably contains a prime pair (x − t, x + t).  
+      The Goldbach Window is a constructive method that turns Goldbach’s conjecture into a short ranked list of offsets
+      <em>t</em>. For every large even number E = 2x, this window reliably contains a prime pair (x − t, x + t).
     </p>
     <ul>
-      <li><strong>Short window:</strong> Top-400 (“silver”) / Top-500 (“gold”) at scale x ≈ 5·10^13.</li>
-      <li><strong>Method:</strong> Σ_dense × (Hardy–Littlewood factor)^0.4 + 2D Selberg refinement.</li>
-      <li><strong>Stress tests:</strong> survived primorial pits & CRT adversaries.</li>
-      <li><strong>Proof path:</strong> unconditional “almost all” theorem with K = C·(log X)^2.</li>
+      <li><strong>Short window:</strong> small Top-K at scale x ≈ 5·10^13.</li>
+      <li><strong>Method:</strong> Σ_dense × (Hardy–Littlewood factor)^0.4 + two-column Selberg refinement.</li>
+      <li><strong>Perspective:</strong> proof-minded route to an unconditional “almost all” theorem with K = C·(log X)^2.</li>
     </ul>
   </div>
 
-  <div class="section">
-    <h2>Files</h2>
-    <ul>
-      <li><a href="goldbach_window_article.md">goldbach_window_article.md</a> — Full article</li>
-      <li><a href="README.md">README.md</a> — Repository summary</li>
-      <li><a href="banner.svg">banner.svg</a> — Banner illustration</li>
-      <li><a href="data/benchmark_methods_summary.csv">benchmark_methods_summary.csv</a> — Benchmark summary</li>
-      <li><a href="data/benchmark_methods_pairs.csv">benchmark_methods_pairs.csv</a> — Benchmark prime pairs</li>
-      <li><a href="data/stress_test_round2_summary.csv">stress_test_round2_summary.csv</a> — Stress test results</li>
-      <li><a href="data/stress_test_round2_pairs.csv">stress_test_round2_pairs.csv</a> — Stress test prime pairs</li>
-      <li><a href="data/stress_test_round2_params.json">stress_test_round2_params.json</a> — Run parameters</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>How to cite</h2>
-    <p>
-      If you want a DOI, connect this repository to <a href="https://zenodo.org/">Zenodo</a> and mint a DOI 
-      for this release.
-    </p>
-  </div>
-
-  <footer>
-    © 2025 Bahbouhi Bouchaib — The Goldbach Window Project
-  </footer>
-</body>
-</html>
+  <div class="
