@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="250">
+  <rect width="800" height="250" fill="#fafafa"/>
+
+  <!-- Central line for x -->
+  <line x1="100" y1="125" x2="700" y2="125" stroke="#333" stroke-width="2"/>
+  <circle cx="400" cy="125" r="8" fill="#0a58ca"/>
+  <text x="390" y="155" font-family="Arial" font-size="14" fill="#0a58ca">x = E/2</text>
+
+  <!-- Prime p (left) -->
+  <circle cx="250" cy="125" r="7" fill="green"/>
+  <text x="240" y="105" font-family="Arial" font-size="14" fill="green">p</text>
+
+  <!-- Prime q (right) -->
+  <circle cx="550" cy="125" r="7" fill="green"/>
+  <text x="545" y="105" font-family="Arial" font-size="14" fill="green">q</text>
+
+  <!-- Arrows to show symmetry -->
+  <line x1="250" y1="125" x2="400" y2="125" stroke="green" stroke-dasharray="4 2"/>
+  <line x1="400" y1="125" x2="550" y2="125" stroke="green" stroke-dasharray="4 2"/>
+
+  <!-- Label E -->
+  <text x="380" y="30" font-family="Arial" font-size="16" fill="#333">E = p + q</text>
+</svg>
