@@ -15,23 +15,23 @@ Stress-style tests (primorial/CRT) indicate the window remains short and robust.
 ---
 
 ## Main article
-The full explanation, methodology, and proof-minded outline are available in:  
+The full explanation, methodology, and proof-minded outline are available in the file:  
 👉 [goldbach_window_article.md](goldbach_window_article.md)
 
 ---
 
 ## Repository guide
-- This file **README.md** — summary of the project.  
-- `goldbach_window_article.md` — the detailed article.  
-- `index.html` — a simple web page (for GitHub Pages).  
-- `banner.svg` — banner illustration.  
-- `window_illustration.svg` — schematic illustration of the Goldbach Window.
+- [README.md](README.md) — this summary file, first entry point.  
+- [goldbach_window_article.md](goldbach_window_article.md) — the detailed article.  
+- [index.html](index.html) — simple web page (for GitHub Pages).  
+- [banner.svg](banner.svg) — banner illustration.  
+- [window_illustration.svg](window_illustration.svg) — schematic illustration of the Goldbach Window.
 
 ---
 
 ## How to use
 1. Start by reading [README.md](README.md) (this file).  
-2. Read the main article: [goldbach_window_article.md](goldbach_window_article.md).  
+2. Continue with the main article: [goldbach_window_article.md](goldbach_window_article.md).  
 3. (Optional) Enable GitHub Pages (Settings → Pages) to serve `index.html` as a project page.
 
 ---
