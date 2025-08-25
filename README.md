@@ -24,7 +24,8 @@ The full explanation, methodology, and proof-minded outline are available in:
 - This file **README.md** — summary of the project.  
 - `goldbach_window_article.md` — the detailed article.  
 - `index.html` — a simple web page (for GitHub Pages).  
-- `banner.svg` — banner illustration.
+- `banner.svg` — banner illustration.  
+- `window_illustration.svg` — schematic illustration of the Goldbach Window.
 
 ---
 
@@ -43,6 +44,13 @@ This work is released under the **MIT License** with attribution required.
 - Commercial or academic use without attribution is strictly prohibited.  
 
 © 2025 Bahbouhi Bouchaib. All rights reserved.
+
+---
+
+## Illustration
+Below is a simple schematic representation of the Goldbach Window:  
+
+![Goldbach Window Illustration](window_illustration.svg)
 
 ---
 
