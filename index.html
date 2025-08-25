@@ -26,6 +26,14 @@
     a:hover { text-decoration: underline; }
     .section { margin-bottom: 2rem; }
     footer { margin-top: 3rem; font-size: 0.9rem; color: #555; text-align: center; }
+    img.illustration {
+      max-width: 100%;
+      display: block;
+      margin: 1rem auto;
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      background: #fff;
+    }
   </style>
 </head>
 <body>
@@ -48,4 +56,27 @@
     </ul>
   </div>
 
-  <div class="
+  <div class="section">
+    <h2>Main files</h2>
+    <ul>
+      <li><a href="README.md">README.md</a> — summary and entry point</li>
+      <li><a href="goldbach_window_article.md">goldbach_window_article.md</a> — the full article</li>
+      <li><a href="banner.svg">banner.svg</a> — banner illustration</li>
+      <li><a href="window_illustration.svg">window_illustration.svg</a> — schematic illustration</li>
+      <li><a href="prime_pair_symmetric.svg">prime_pair_symmetric.svg</a> — symmetric Goldbach pair illustration</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>Illustrations</h2>
+    <p>Schematic representations of the Goldbach Window:</p>
+    <img src="window_illustration.svg" alt="Goldbach Window Illustration" class="illustration">
+    <p>Symmetric prime pair around x = E/2:</p>
+    <img src="prime_pair_symmetric.svg" alt="Symmetric Goldbach Pair" class="illustration">
+  </div>
+
+  <footer>
+    © 2025 Bahbouhi Bouchaib — The Goldbach Window Project
+  </footer>
+</body>
+</html>
